@@ -128,6 +128,8 @@ img {
 }
 
 .contact-link {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: var(--primary-text-color);
   font-weight: 500;
@@ -141,10 +143,20 @@ img {
   color: var(--accent-color);
 }
 
+.icon-contact {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.icon-phone {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 /* Hero */
 .section-hero {
   max-width: 1600px;
-  height: 600px; 
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 200px;
@@ -153,8 +165,12 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-color: var(--first-bg-color);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-  url(../images/herofone.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/herofone.jpg);
   text-align: center;
 }
 
@@ -324,7 +340,7 @@ img {
   text-align: center;
 }
 
-/* Section clients*/ 
+/* Section clients*/
 .section-clients {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -333,14 +349,13 @@ img {
 .client-title {
   margin-top: 0;
   margin-bottom: 50px;
-  
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
 }
-
 
 /* Site footer ! */
 .footer {
