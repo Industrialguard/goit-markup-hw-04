@@ -8,6 +8,7 @@
   --first-bg-color: #2f303a; /* Цвет фона главной страницы */
   --footer-link-color: rgba(255, 255, 255, 0.6); /* цвет фона футера */
   --icon-bg-color: #f5f4fa; /*цвет фона иконок*/
+  --icon-primary-color: #afb1b8; /*Основной цвет иконок */
 }
 
 body {
@@ -316,10 +317,6 @@ img {
   list-style: none;
 }
 
-/*.content-text {
-  padding: 30px 59px;
-}*/
-
 .team-card {
   width: 270px;
   margin-right: 30px;
@@ -367,14 +364,30 @@ img {
   margin-right: 10px;
 }
 
+.icon-item {
+  fill: var(--icon-primary-color);
+}
+
 .icon-link {
   display: flex;
   justify-content: center;
   align-items: center;
 
+  text-decoration: none;
+  color: currentColor;
   width: 44px;
   height: 44px;
   border-radius: 50%;
+}
+
+/* Interactive icon link */
+.icon-link:hover,
+.icon-link:focus {
+  background-color: var(--accent-color);
+}
+
+.icon-item:hover {
+  fill: var(--white-text-color);
 }
 
 /* Section clients*/
@@ -392,6 +405,31 @@ img {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.client-item {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.client-item:last-child {
+  margin-right: 0;
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid var(--icon-primary-color);
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
 }
 
 /* Site footer ! */
