@@ -350,6 +350,23 @@ img {
   text-align: center;
 }
 
+.icon-team {
+  display: flex;
+  justify-content: center;
+
+  list-style: none;
+}
+
+.icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
 /* Section clients*/
 .section-clients {
   padding-top: 94px;
