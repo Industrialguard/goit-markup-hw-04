@@ -432,6 +432,16 @@ img {
   height: 92px;
 }
 
+.icon-client {
+  fill: var(--icon-primary-color);
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  border: 1px solid var(--accent-color);
+  fill: var(--accent-color);
+}
+
 /* Site footer ! */
 .footer {
   padding-top: 60px;
@@ -488,6 +498,44 @@ img {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
+}
+
+.icons-list {
+  list-style: none;
+}
+
+.footer-icon {
+  list-style: none;
+}
+
+.social-footer {
+  display: block;
+  width: 44px;
+  height: 44px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--white-text-color);
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.icon-image {
+  fill: currentColor;
+}
+
+/* Footer flex */
+.footer-box {
+  display: flex;
+}
+
+.footer-icon {
+  display: flex;
+}
+
+.social-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Portfolio section ! */
