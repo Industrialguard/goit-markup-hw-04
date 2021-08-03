@@ -449,11 +449,14 @@ img {
 }
 
 .clients-link:hover,
+.clients-link:active,
 .clients-link:focus {
   border: 1px solid var(--accent-color);
 }
 
-.clients-link:hover .icon-client {
+.clients-link:hover .icon-client,
+.clients-link:active .icon-client,
+.clients-link:focus .icon-client {
   fill: var(--accent-color);
 }
 
