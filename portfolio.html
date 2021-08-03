@@ -40,12 +40,18 @@
         <ul class="header-contacts list">
           <li class="link-item">
             <a href="mailto:info@devstudio.com" class="contact-link"
-              >info@devstudio.com</a
+              ><svg class="icon-contact" width="16px" height="12px">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li class="link-item">
             <a href="tel:+380961111111" class="contact-link"
-              >+38 096 111 11 11</a
+              ><svg class="icon-phone" width="10px" height="16px">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -212,25 +218,63 @@
     <!--Подвал сайта-->
     <footer class="footer">
       <div class="container">
-        <a href="./" lang="en" class="footer-logo"
-          >Web<span class="footer-title">Studio</span></a
-        >
-        <address class="adress">
-          <span class="adress-text">г. Киев, пр-т Леси Украинки, 26</span>
+        <div class="footer-box">
+          <div class="contact">
+            <a href="./" lang="en" class="footer-logo"
+              >Web<span class="footer-title">Studio</span></a
+            >
+            <address class="adress">
+              <span class="adress-text">г. Киев, пр-т Леси Украинки, 26</span>
 
-          <ul class="footer-list">
-            <li class="footer-item">
-              <a href="mailto:info@example.com" class="footer-link"
-                >info@example.com</a
-              >
-            </li>
-            <li class="footer-item">
-              <a href="tel:+380991111111" class="footer-link"
-                >+38 099 111 11 11</a
-              >
-            </li>
-          </ul>
-        </address>
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="mailto:info@example.com" class="footer-link"
+                    >info@example.com</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a href="tel:+380991111111" class="footer-link"
+                    >+38 099 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+
+          <div class="invite-link">
+            <b class="invite-title">ПРИСОЕДИНЯЙТЕСЬ</b>
+            <ul class="footer-icon">
+              <li class="icons-list">
+                <a href="https://www.instagram.com/" class="social-footer">
+                  <svg class="icon-image" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="icons-list">
+                <a href="https://twitter.com/" class="social-footer">
+                  <svg class="icon-image" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="icons-list">
+                <a href="https://www.facebook.com/" class="social-footer">
+                  <svg class="icon-image" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="icons-list">
+                <a href="https://www.linkedin.com/" class="social-footer">
+                  <svg class="icon-image" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
