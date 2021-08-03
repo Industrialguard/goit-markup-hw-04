@@ -546,6 +546,12 @@ img {
   border-radius: 50px;
 }
 
+.social-footer:hover,
+.social-footer:active,
+.social-footer:focus {
+  background-color: var(--accent-color);
+}
+
 .icon-image {
   fill: currentColor;
 }
