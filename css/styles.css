@@ -509,8 +509,26 @@ img {
   color: var(--accent-color);
 }
 
+.invite-title {
+  display: inline-block;
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--white-text-color);
+}
+
 .icons-list {
   list-style: none;
+  margin-right: 10px;
+}
+
+.icons-list:last-child {
+  margin-right: 0;
 }
 
 .footer-icon {
@@ -518,7 +536,7 @@ img {
 }
 
 .social-footer {
-  display: block;
+  display: flex;
   width: 44px;
   height: 44px;
 
@@ -532,9 +550,14 @@ img {
   fill: currentColor;
 }
 
+.contact {
+  margin-right: 70px;
+}
+
 /* Footer flex */
 .footer-box {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-icon {
