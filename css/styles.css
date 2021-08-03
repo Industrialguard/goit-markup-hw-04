@@ -50,8 +50,8 @@ img {
 
 /* Site header */
 .page-header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  /*padding-top: 24px;
+  padding-bottom: 25px;*/
 
   border-bottom: 1px solid #ececec;
 }
@@ -67,6 +67,9 @@ img {
 }
 
 .navigation-logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+
   color: var(--accent-color);
   text-decoration: none;
   font-family: Raleway;
@@ -97,6 +100,9 @@ img {
 }
 
 .navigation-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   display: block;
   text-decoration: none;
   color: var(--title-text-color);
@@ -131,6 +137,9 @@ img {
 
 .contact-link {
   display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   align-items: center;
   text-decoration: none;
   color: var(--primary-text-color);
