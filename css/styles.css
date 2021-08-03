@@ -391,11 +391,13 @@ img {
 
 /* Interactive icon link */
 .icon-link:hover,
-.icon-link:focus {
+.icon-link:focus,
+.icon-link:active {
   background-color: var(--accent-color);
 }
 
 .icon-link:focus .icon-item,
+.icon-link:active .icon-item,
 .icon-link:hover .icon-item {
   fill: #ffffff;
 }
@@ -449,6 +451,9 @@ img {
 .clients-link:hover,
 .clients-link:focus {
   border: 1px solid var(--accent-color);
+}
+
+.clients-link:hover .icon-client {
   fill: var(--accent-color);
 }
 
@@ -614,6 +619,8 @@ img {
   background-color: var(--accent-color);
   color: var(--white-text-color);
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-item {
@@ -640,6 +647,11 @@ img {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+}
+
+.card-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .card-link {
