@@ -237,12 +237,16 @@ img {
 }
 
 /* Sections */
-
-/*Features*/
-.section-features {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+/*Features*/
+/*.section-features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}*/
 
 .feature-list {
   display: flex;
@@ -287,11 +291,10 @@ img {
 
 /*Activity */
 .section-activity {
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 
 .activity-title {
-  margin-top: 0;
   margin-bottom: 50px;
 
   color: var(--title-text-color);
@@ -316,14 +319,12 @@ img {
 
 /* Team */
 .section-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-
   background-color: var(--hero-text-color);
+  padding: 0;
 }
 
 .team-title {
-  margin-top: 0;
+  margin-bottom: 50px;
 
   color: var(--title-text-color);
   font-weight: 700;
@@ -430,7 +431,6 @@ img {
 
 .clients-list {
   display: flex;
-  justify-content: center;
 }
 
 .client-item {
