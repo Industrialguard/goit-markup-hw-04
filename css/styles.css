@@ -596,11 +596,6 @@ img {
 
 /* Portfolio section ! */
 
-.section-cards {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 /* Buttons */
 .button-list {
   display: flex;
@@ -661,10 +656,11 @@ img {
   margin-top: 30px;
 }
 
+/*.card-item:focus,
 .card-item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+}*/
 
 .card-link {
   color: var(--primary-text-color);
@@ -672,6 +668,13 @@ img {
   font-size: 16px;
   line-height: 1.87;
 }
+
+.card-link:hover,
+.card-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .card-title {
   margin-bottom: 0;
 
