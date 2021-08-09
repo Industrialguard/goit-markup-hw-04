@@ -317,7 +317,6 @@ img {
 /* Team */
 .section-team {
   background-color: var(--hero-text-color);
-  padding: 0;
 }
 
 .team-title {
